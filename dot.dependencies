@@ -1,0 +1,51 @@
+[
+  {
+    "remote": "github",
+    "repository": "lavender-sdm660/device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common"
+  },
+  {
+    "remote": "github",
+    "repository": "lavender-sdm660/vendor_xiaomi_lavender",
+    "target_path": "vendor/xiaomi/lavender"
+  },
+  {
+    "remote": "github",
+    "repository": "lavender-sdm660/vendor_xiaomi_sdm660-common",
+    "target_path": "vendor/xiaomi/sdm660-common"
+  },
+  {
+    "remote": "github",
+    "repository": "stormbreaker-project/kernel_xiaomi_lavender",
+    "target_path": "kernel/xiaomi/sdm660",
+    "branch": "oldcam-eas"
+  },
+  {
+    "remote": "github",
+    "repository": "AOSP-11/hardware_qcom-caf_display_msm8998",
+    "target_path": "hardware/qcom-caf/msm8998-r/display",
+    "branch": "11"
+  },
+  {
+    "remote": "github",
+    "repository": "AOSP-11/hardware_qcom-caf_audio_msm8998",
+    "target_path": "hardware/qcom-caf/msm8998-r/audio",
+    "branch": "11"
+  },
+  {
+    "remote": "github",
+    "repository": "AOSP-11/hardware_qcom-caf_media_msm8998",
+    "target_path": "hardware/qcom-caf/msm8998-r/media",
+    "branch": "11"
+  },
+  {
+    "remote": "github",
+    "repository": "lavender-sdm660/vendor_xiaomi_dirac",
+    "target_path": "vendor/xiaomi/dirac"
+  },
+  {
+    "remote": "github",
+    "repository": "lavender-sdm660/vendor_GoogleCamera",
+    "target_path": "vendor/GoogleCameraPort"
+  }
+]
