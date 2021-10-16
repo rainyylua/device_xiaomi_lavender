@@ -29,8 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit from Potato vendor
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit from OctaviOS vendor
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -42,8 +42,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="lavender" \
     PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.211001.001 7641976 release-keys"
 
+# OctaviOS
+OCTAVI_DEVICE_MAINTAINER := rainyylua
+TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GAPPS := true
+
 # Device identifier
-PRODUCT_NAME := potato_lavender
+PRODUCT_NAME := octavi_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
