@@ -47,6 +47,10 @@ TARGET_GAPPS_ARCH := arm64
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.ssos.cpu=SDM660
 
+# Gapps
+TARGET_ARCH := arm64
+TARGET_SDK_VERSION := 31
+
 # Device identifier
 PRODUCT_NAME := ssos_lavender
 PRODUCT_MANUFACTURER := Xiaomi

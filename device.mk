@@ -98,3 +98,6 @@ $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 
 # GoogleCameraPort
 $(call inherit-product-if-exists, vendor/GoogleCameraPort/GoogleCamera.mk)
+
+# BitGapps
+$(call inherit-product, vendor/gapps/gapps.mk)
