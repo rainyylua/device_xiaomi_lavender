@@ -39,7 +39,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
     PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.211001.001 7641976 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 12 SP1A.210812.015 7679548 release-keys"
 
 # ShapeShiftOS
 ARGET_FACE_UNLOCK_SUPPORTED := true
@@ -63,4 +63,4 @@ TARGET_VENDOR_PRODUCT_NAME := lavender
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:12/SP1A.210812.015/7679548:user/release-keys
